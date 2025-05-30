@@ -1,1394 +1,1236 @@
 {
-        "logo" :{
-            "id" : 1,
-            "src" : "/imags/img.svg",
-            "alt" : "logo"
-        },
-
-    "menu" : [
+    "logo": {
+        "id": 1,
+        "src": "imags/img.svg",
+        "alt": "logo"
+    },
+    "menu": [
         {
-            "id" : 1,
-            "title" : "فیلیموتور",
-            "href" : "#",
-            "img" : "/imags/img2.svg" 
-            
-        },
-        {
-            "id" :2,
-            "title":"فیلیمومدرسه",
-            "href" : "filimo.com",   
-            "img" :"/imags/imag3.svg"
-        },
-        {
-            "id" :3,
-            "title" : "جستجو",
-            "href" : "#",
-            "img" : "/imags/img5.svg"
-        }
- 
-    ],
-
-   "helperdb" :[
-                    {
-                        "id":"0",
-                        "logofilim":"./imags/tsian.webp",
-                          "title" : "تاسیان",
-                          "info" : "کارگردان: تینا پاکروان",
-                          "imdb": "8.2IMDb",
-                          "type1" : "درام", 
-                          "type2" : "عاشقانه", 
-                          "p" : "چهارشنبه سوری برای خانواده نجات پریدن از آتش و برای جمشید نجات گر گرفتن به آتش خسرو می شود…", 
-                         "class" : "tasian",
-                         "images":"",
-                         "type" : "series",
-                         "background" : "./imags/tasianback.webp",
-                         
-                       "img":{
-                         
-                         "0": "./imags/tasianp1.webp",
-                         "1":"./imags/tasianp2.webp" ,
-                         "2":"./imags/tasianp3.webp",
-                         "3":"./imags/tasianp4.webp",
-                         "4":"./imags/tasianp5.webp",
-                         "5":"./imags/tasianp6.webp",
-                         "6":"./imags/tasianp7.webp",
-                         "7":"./imags/tasianp9.webp"
-                        
-                       },
-                       "img_t":{
-                            
-                         "0":"فصل 1 قسمت 1: ده شب",
-                         "1":"فصل 1 قسمت 2: عاشقش نیستم",
-                         "2":" فصل 1 قسمت 3: بلیط بخت",
-                         "3":" فصل 1 قسمت 4: خسرو و شیرین ",
-                         "4":"فصل 1 قسمت 5: امکان دوم",
-                         "5":"فصل 1 قسمت 6: مرداب  ",
-                         "6":" فصل 1 قسمت 7: روز مادر",
-                         "7":"فصل 1 قسمت 8: وداع با اسلحه"
-                            
-                        }
-                        
-                    },
-                    {
-                        "id":"1",
-                        "logofilim": "imags/sedatolego.webp" ,
-                          "title" : "صداتو",
-                          "info" : "کارگردان: حامد جوادزاده",
-                          "imdb": "8.2IMDb",
-                          "type1" : "ریلیتی شو", 
-                          "type2" : "گیم شو", 
-                          "p" : "شرکت کننده ی قسمت دهم فصل سوم «صداتو»، قراره بین ۶ نفر مدل، باغدار، ماسور، پزشک عمومی، مهندس مکانیک و دامپزشک تش...", 
-                         "class" : "tasian",
-                      "images":"./imags/sedatolego.webp",
-                         "type" : "series",
-                          "background" : "./imags/sedatoback.webp",
-                       "img":{
-                         
-                         "0": "imags/sedatoslaider1.webp",
-                         "1":"imags/sedatoslaider2.webp" ,
-                         "2":"imags/sedatoslaider3.webp",
-                         "3":"imags/sedatoslaider4.webp",
-                         "4":"imags/sedatoslaider5.webp",
-                         "5":"imags/sedatoslaider6.webp",
-                         "6":"imags/sedatoslaider7.webp",
-                         "7":"imags/sedatoslaider8.webp"
-                        
-                       },
-                       "img_t":{
-                            
-                         "0":"فصل 1 قسمت 1: بچه های ایران",
-                         "1":"فصل 1 قسمت 2: میم مثل مادر",
-                         "2":" فصل 1 قسمت 3: طفلی به نام شادی",
-                         "3":" فصل 1 قسمت 4: برای آینده",
-                         "4":"فصل 1 قسمت 5: رفاقت",
-                         "5":"فصل 1 قسمت 6: سلام سینما",
-                         "6":" فصل 1 قسمت 7: کاک وَهَب",
-                         "7":"فصل 1 قسمت 8:ایراندخت"
-                            
-                        }
-                        
-                    },
-                    {
-                        "id":"2",
-                        "logofilim":"imags/jokerlogo.webp",
-                          "title" : "جوکر 2",
-                          "info" : "کارگردان:احسان علیخانی",
-                          "imdb": "8.2IMDb",
-                          "type1" : " کمدی", 
-                          "type2" : "ریلیتی شو", 
-                          "p" : "جوکر خانوادگی با تغییرات جذاب و متفاوتی شروع می شه. برای اولین بار ده بازیگر وارد طبقه ۲۱ می شن. میزیان توی این فصل گرو...", 
-                         "class" : "tasian",
-                         "images":"imags/jokerlogo.webp",
-                         "type" : "series",
-                          "background" : "imags/jokerbackgrand.webp",
-                       "img":{
-                         
-                         "0": "./imags/jokerslaider1.webp",
-                         "1":"./imags/jokerslaider2.webp" ,
-                         "2":"./imags/jokerslaider3.webp",
-                         "3":"./imags/jokerslaider4.webp" ,
-                         "4":"./imags/jokerslaider5.webp",
-                         "5":"./imags/jokerslaider6.webp" ,
-                         "6":"./imags/jokerslaider7.webp",
-                         "7":"./imags/jokerslaider8.webp"
-                        
-                       },
-                       "img_t":{
-                            
-                         "0":"1فصل 1 : قسمت ",
-                         "1":"2فصل  1: قسمت ",
-                         "2":" فصل 1: قسمت 3",
-                         "3":" فصل 1 قسمت 4",
-                         "4":"فصل 1: قسمت 5",
-                         "5":"فصل 1 : قسمت 6",
-                         "6":" فصل 1 : قسمت 7 ",
-                         "7":"فصل 11: قسمت 8"
-                            
-                        }
-                        
-                    },
-                    {
-                        "id":"3",
-                        "background":"imags/leonaback.webp",
-                          "title" : "لئونا",
-                          "info" : "کارگردان: مهدی شاد",
-                          "imdb": "8.2IMDb",
-                          "type1" : " انیمیشن", 
-                          "type2" : "ماجراجویی", 
-                          "p" : "لئونا و لئو و داداش در محوطه خانه بازی می کنند. داداش به لئو در بازی کمک می کند. آن ها بازی های مختلف را امتحان می کنند و د ..", 
-                         "class" : "tasian",
-                         "logofilim":"imags/jokerlogo.webp",
-                         "type" : "series",
-                         
-                       "img":{
-                         
-                         "0": "imags/leonaslaider1.webp",
-                         "1":"imags/leonaslaider2.webp"  ,
-                         "2":"imags/leonaslaider3.webp" ,
-                         "3":"imags/leonaslaider4.webp",
-                         "4":"imags/leonaslaider5.webp" ,
-                         "5":"imags/leonaslaider6.webp" ,
-                         "6":"imags/leonaslaider7.webp" ,
-                         "7":"imags/leonaslaider8.webp" 
-                        
-                       },
-                       "img_t":{
-                            
-                         "0":"رنگ انگشتی",
-                         "1":"لباس پوشیدن",
-                         "2":" رعد و برق",
-                         "3":"  بادبادک بازی",
-                         "4":"کوکو کوکو",
-                         "5":"قوانین بازی",
-                         "6":" وقتی برق می رود",
-                         "7":"یه روز پاییزی"
-                            
-                        }
-                        
-                    },
-                    {
-                        "id":"4",
-                        "background":"imags/aknoon.webp" ,
-                          "title" : "اکنون...",
-                          "info" : "کارگردان:  محمدرضا رضائیان",
-                          "imdb": "8.2IMDb",
-                          "type1" : " تاک شو", 
-                          "type2" : "ماجراجویی", 
-                          "p" : "در بیست و پنجمین قسمت《اکنون...》مهرداد اسکویی، عکاس و مستندساز مهمان برنامه است. او در این قسمت از نجواهای خاموش..", 
-                         "class" : "tasian",
-                         "type" : "series",
-                         
-                       "img":{
-                         
-                         "0": "imags/aknoonslaider1.webp",
-                         "1":"imags/aknoonslaider2.webp" ,
-                         "2":"imags/aknoonslaider3.webp" ,
-                         "3":"imags/aknoonslaider4.webp",
-                         "4":"imags/aknoonslaider5.webp" ,
-                         "5":"imags/aknoonslaider6.webp" ,
-                         "6":"imags/aknoonslaider7.webp",
-                         "7":"imags/aknoonslaider8.webp" 
-                        
-                       },
-                       "img_t":{
-                            
-                         "0":"رنگ انگشتی",
-                         "1":"لباس پوشیدن",
-                         "2":" رعد و برق",
-                         "3":"  بادبادک بازی",
-                         "4":"کوکو کوکو",
-                         "5":"قوانین بازی",
-                         "6":" وقتی برق می رود",
-                         "7":"یه روز پاییزی"
-                            
-                        }
-                        
-                    },
-                    {
-                        "id":"5",
-                        "background":"imags/dinnerback.webp"  ,
-                          "title" : "شام ایرانی",
-                          "info" : "کارگردان: سعید ابوطالب",
-                          "imdb": "8.2IMDb",
-                          "type1" : "  خانوادگی", 
-                          "type2" : "درام", 
-                          "p" : "فلامک جنیدی به تهیه یک غذای سخت فکر می کند . همسر و دوقلوهایش همزمان از خارج از کشور با او تماس می گیرند. فلامک رها خ...", 
-                         "class" : "tasian",
-                         "type" : "series",
-                          "logofilim":"imags/dinnerlogo.webp" ,
-                       "img":{
-                         
-                         "0": "./imags/dinnerslaider1.webp",
-                         "1":"./imags/dinnerslaider2.webp" ,
-                         "2":"./imags/dinnerslaider3.webp" ,
-                         "3":"./imags/dinnerslaider4.webp"
-                  
-                        
-                       },
-                       "img_t":{
-                            
-                        "0":"1فصل 1 : قسمت ",
-                        "1":"2فصل  1: قسمت ",
-                        "2":" فصل 1: قسمت 3",
-                        "3":" فصل 1 قسمت 4"
-                            
-                        }
-                        
-                    },
-                    {
-                        "id":"6",
-                        "background":"imags/azizback.webp"  ,
-                          "title" : "عزیز",
-                          "info" : "کارگردان: مجید توکلی",
-                          "imdb": "5.2IMDb",
-                          "type1" : "  درام", 
-                          "type2" : "عاشقانه", 
-                          "p" : "فیلم عزیز داستان زنی به همین نام را روایت می کند که با پیشرفت بیماری آلزایمر دست و پنجه نرم می کند. این بیماری نه تنها زندگی..", 
-                         "class" : "tasian",
-                         "type" : "filims",
-                         "logofilim":"imags/azizlogo.webp",
-                         "itsFilm":true, 
-                
-             
-                            
-                        "parafilm":" بالای ۱۵ سال - یک ساعت و ۲۶ دقیقه - محصول ایران - ۱۴۰۲ - کیفیت HD"
- 
-                            
-                        
-                        
-                    },
-                    {
-                        "id":"7",
-                        "background":"imags/fardaback.webp" ,
-                          "title" : "فردا",
-                          "info" : "کارگردان: هدی پاکدل",
-                          "imdb": "5.2IMDb",
-                          "type1" : "  درام", 
-                          "type2" : "خانوادگی", 
-                          "p" : "فیلم فردا ، داستان دختری را روایت می کند که به عکاسی علاقه دارد و همراه با مادرش راهی سفری برای عکاسی می شود و اتفاقاتی ...", 
-                         "class" : "tasian",
-                         "type" : "filims",
-                         "itsFilm":true,
-          
-                            
-                        "parafilm":"بالای ۱۵ سال - یک ساعت و ۲۵ دقیقه - محصول ایران - ۱۳۹۲ - کیفیت HD"
- 
-                            
-                        
-                        
-                    },
-                    {
-                        "id":"8",
-                        "background":"imags/khoshksaliback.webp"  ,
-                          "title" : "خشکسالی و دروغ",
-                          "info" : "کارگردان : محمد یعقوبی ",
-                          "imdb": "4.8IMDb",
-                          "type1" : "  درام", 
-                          "type2" : "تئاتر", 
-                          "p" : "زندگی قهرمان اتومبیل رانی ایرانی به نام لاله صدیق را روایت می کند که پر از حوادث و فراز و نشیب است...", 
-                         "class" : "tasian",
-                         "type" : "filims",     
-                         "itsFilm":true, 
-
-                
-                            
-                        "parafilm":"بالای ۱۵ سال - ۲ساعت - محصول ایران - ۲۰۲۱ - کیفیت HD"
- 
-                            
-                        
-                        
-                    },
-                    {
-                        "id":"9",
-                        "background":"imags/natamamback.webp" ,
-                          "title" : "روایت ناتمام سیما",
-                          "info" : "کارگردان : اسد الله نیک نژاد ",
-                          "imdb": "4.8IMDb",
-                          "type1" : "  درام", 
-                          "type2" : "خانوادگی", 
-                          "p" : "زندگی قهرمان اتومبیل رانی ایرانی به نام لاله صدیق را روایت می کند که پر از حوادث و فراز و نشیب است...", 
-                         "class" : "tasian",
-                         "type" : "filims",     
-                         "itsFilm":true, 
-                         "logofilim" :"imags/natamam.webp" ,
-                    
-                            
-                        "parafilm":"بالای ۱۵ سال - ۲ساعت - محصول ایران - ۲۰۲۱ - کیفیت HD"
- 
-                            
-                        
-                        
-                    },
-                    {
-                        "id":"10",
-                        "background":"imags/gharib.webp"  ,
-                          "title" : "غریب",
-                          "info" : "کارگردان :محمدحسین لطیفی ",
-                          "imdb": "5.8IMDb",
-                          "type1" : "  درام", 
-                          "type2" : "بیوگرافی", 
-                          "p" : "زندگی قهرمان اتومبیل رانی ایرانی به نام لاله صدیق را روایت می کند که پر از حوادث و فراز و نشیب است...", 
-                         "class" : "tasian",
-                         "type" : "filims",     
-                         "itsFilm":true, 
-
-                       
-                            
-                        "parafilm":"بالای ۱۵ سال - ۲ساعت - محصول ایران - ۲۰۲۱ - کیفیت HD"
- 
-                            
-                        
-                        
-                    },
-                    {
-                        "id":"11",
-                        "logofilim":"imags/laleh.webp"  ,
-                          "title" : "لاله",
-                          "info" : "کارگردان : اسد الله نیک نژاد ",
-                          "imdb": "4.8IMDb",
-                          "type1" : "  درام", 
-                          "type2" : "خانوادگی", 
-                          "p" : "زندگی قهرمان اتومبیل رانی ایرانی به نام لاله صدیق را روایت می کند که پر از حوادث و فراز و نشیب است...", 
-                         "class" : "tasian",
-                         "type" : "filims",     
-                         "itsFilm":true, 
-                             "background":"imags/laleh.webp"  ,
-                    
-                            
-                        "parafilm":"بالای ۱۵ سال - ۲ساعت - محصول ایران - ۲۰۲۱ - کیفیت HD"
- 
-                            
-                                                
-                    }
-            ],
-
-
-          
-
-
-
-           "menuboton" :[
-            {
-                "id" :1,
-                "title" : "خرید اشتراک"
-            }
-           ],
-           "menuboton1" :[
-            {
-                "id" :1,
-                "title" : "ورود"
-          
-            }
-           ],
-           "slaider" :[
-            {
-                "id" :1,
-                "src" : "./imags/slaider1.webp",
-                "alt" :"slaider" 
-            },
-            {
-                "id" :2,
-                "src" : "/imags/slaider2.webp",
-                "alt" :"slaider" 
-            },
-            {
-                "id" :3,
-                "src" : "/imags/slaider3.webp",
-                "alt" :"slaider" 
-            },
-            {
-                "id" :4,
-                "src" : "/imags/slaider4.webp",
-                "alt" :"slaider" 
-            },
-            {
-                "id" :5,
-                "src" : "/imags/slaider5.webp",
-                "alt" :"slaider" 
-            },
-            {
-                "id" :6,
-                "src" : "/imags/slaider6.webp",
-                "alt" :"slaider" 
-            },
-            {
-                "id" :7,
-                "src" : "/imags/slaider7.webp",
-                "alt" :"slaider" 
-            },
-            {
-                "id" :8,
-                "src" : "/imags/slaider8.webp",
-                "alt" :"slaider" 
-            }
-           ],
-           "parent" :[
-            {
             "id": 1,
-             "title" : "با فیلیمو بی‌وقفه فیلم ببین",
-             "class" : "divch1"             
-           },
-            {
+            "title": "فیلیموتور",
+            "href": "#",
+            "img": "imags/img2.svg"
+        },
+        {
             "id": 2,
-             "title" : "کنترل همیشه دست توست!",
-             "class" : "divch12"             
-             
-           }
-        ],
-            "divch3" :[
+            "title": "فیلیمومدرسه",
+            "href": "filimo.com",
+            "img": "imags/imag3.svg"
+        },
+        {
+            "id": 3,
+            "title": "جستجو",
+            "href": "#",
+            "img": "imags/img5.svg"
+        }
+    ],
+    "helperdb": [
+        {
+            "id": "0",
+            "logofilim": "imags/tsian.webp",
+            "title": "تاسیان",
+            "info": "کارگردان: تینا پاکروان",
+            "imdb": "8.2IMDb",
+            "type1": "درام",
+            "type2": "عاشقانه",
+            "p": "چهارشنبه سوری برای خانواده نجات پریدن از آتش و برای جمشید نجات گر گرفتن به آتش خسرو می شود…",
+            "class": "tasian",
+            "images": "",
+            "type": "series",
+            "background": "imags/tasianback.webp",
+            "img": {
+                "0": "imags/tasianp1.webp",
+                "1": "imags/tasianp2.webp",
+                "2": "imags/tasianp3.webp",
+                "3": "imags/tasianp4.webp",
+                "4": "imags/tasianp5.webp",
+                "5": "imags/tasianp6.webp",
+                "6": "imags/tasianp7.webp",
+                "7": "imags/tasianp9.webp"
+            },
+            "img_t": {
+                "0": "فصل 1 قسمت 1: ده شب",
+                "1": "فصل 1 قسمت 2: عاشقش نیستم",
+                "2": " فصل 1 قسمت 3: بلیط بخت",
+                "3": " فصل 1 قسمت 4: خسرو و شیرین ",
+                "4": "فصل 1 قسمت 5: امکان دوم",
+                "5": "فصل 1 قسمت 6: مرداب  ",
+                "6": " فصل 1 قسمت 7: روز مادر",
+                "7": "فصل 1 قسمت 8: وداع با اسلحه"
+            }
+        },
+        {
+            "id": "1",
+            "logofilim": "imags/sedatolego.webp",
+            "title": "صداتو",
+            "info": "کارگردان: حامد جوادزاده",
+            "imdb": "8.2IMDb",
+            "type1": "ریلیتی شو",
+            "type2": "گیم شو",
+            "p": "شرکت کننده ی قسمت دهم فصل سوم «صداتو»، قراره بین ۶ نفر مدل، باغدار، ماسور، پزشک عمومی، مهندس مکانیک و دامپزشک تش...",
+            "class": "tasian",
+            "images": "./imags/sedatolego.webp",
+            "type": "series",
+            "background": "./imags/sedatoback.webp",
+            "img": {
+                "0": "imags/sedatoslaider1.webp",
+                "1": "imags/sedatoslaider2.webp",
+                "2": "imags/sedatoslaider3.webp",
+                "3": "imags/sedatoslaider4.webp",
+                "4": "imags/sedatoslaider5.webp",
+                "5": "imags/sedatoslaider6.webp",
+                "6": "imags/sedatoslaider7.webp",
+                "7": "imags/sedatoslaider8.webp"
+            },
+            "img_t": {
+                "0": "فصل 1 قسمت 1: بچه های ایران",
+                "1": "فصل 1 قسمت 2: میم مثل مادر",
+                "2": " فصل 1 قسمت 3: طفلی به نام شادی",
+                "3": " فصل 1 قسمت 4: برای آینده",
+                "4": "فصل 1 قسمت 5: رفاقت",
+                "5": "فصل 1 قسمت 6: سلام سینما",
+                "6": " فصل 1 قسمت 7: کاک وَهَب",
+                "7": "فصل 1 قسمت 8:ایراندخت"
+            }
+        },
+        {
+            "id": "2",
+            "logofilim": "imags/jokerlogo.webp",
+            "title": "جوکر 2",
+            "info": "کارگردان:احسان علیخانی",
+            "imdb": "8.2IMDb",
+            "type1": " کمدی",
+            "type2": "ریلیتی شو",
+            "p": "جوکر خانوادگی با تغییرات جذاب و متفاوتی شروع می شه. برای اولین بار ده بازیگر وارد طبقه ۲۱ می شن. میزیان توی این فصل گرو...",
+            "class": "tasian",
+            "images": "imags/jokerlogo.webp",
+            "type": "series",
+            "background": "imags/jokerbackgrand.webp",
+            "img": {
+                "0": "imags/jokerslaider1.webp",
+                "1": "imags/jokerslaider2.webp",
+                "2": "imags/jokerslaider3.webp",
+                "3": "imags/jokerslaider4.webp",
+                "4": "imags/jokerslaider5.webp",
+                "5": "imags/jokerslaider6.webp",
+                "6": "imags/jokerslaider7.webp",
+                "7": "imags/jokerslaider8.webp"
+            },
+            "img_t": {
+                "0": "1فصل 1 : قسمت ",
+                "1": "2فصل  1: قسمت ",
+                "2": " فصل 1: قسمت 3",
+                "3": " فصل 1 قسمت 4",
+                "4": "فصل 1: قسمت 5",
+                "5": "فصل 1 : قسمت 6",
+                "6": " فصل 1 : قسمت 7 ",
+                "7": "فصل 11: قسمت 8"
+            }
+        },
+        {
+            "id": "3",
+            "background": "imags/leonaback.webp",
+            "title": "لئونا",
+            "info": "کارگردان: مهدی شاد",
+            "imdb": "8.2IMDb",
+            "type1": " انیمیشن",
+            "type2": "ماجراجویی",
+            "p": "لئونا و لئو و داداش در محوطه خانه بازی می کنند. داداش به لئو در بازی کمک می کند. آن ها بازی های مختلف را امتحان می کنند و د ..",
+            "class": "tasian",
+            "logofilim": "imags/jokerlogo.webp",
+            "type": "series",
+            "img": {
+                "0": "imags/leonaslaider1.webp",
+                "1": "imags/leonaslaider2.webp",
+                "2": "imags/leonaslaider3.webp",
+                "3": "imags/leonaslaider4.webp",
+                "4": "imags/leonaslaider5.webp",
+                "5": "imags/leonaslaider6.webp",
+                "6": "imags/leonaslaider7.webp",
+                "7": "imags/leonaslaider8.webp"
+            },
+            "img_t": {
+                "0": "رنگ انگشتی",
+                "1": "لباس پوشیدن",
+                "2": " رعد و برق",
+                "3": "  بادبادک بازی",
+                "4": "کوکو کوکو",
+                "5": "قوانین بازی",
+                "6": " وقتی برق می رود",
+                "7": "یه روز پاییزی"
+            }
+        },
+        {
+            "id": "4",
+            "background": "imags/aknoon.webp",
+            "title": "اکنون...",
+            "info": "کارگردان:  محمدرضا رضائیان",
+            "imdb": "8.2IMDb",
+            "type1": " تاک شو",
+            "type2": "ماجراجویی",
+            "p": "در بیست و پنجمین قسمت《اکنون...》مهرداد اسکویی، عکاس و مستندساز مهمان برنامه است. او در این قسمت از نجواهای خاموش..",
+            "class": "tasian",
+            "type": "series",
+            "img": {
+                "0": "imags/aknoonslaider1.webp",
+                "1": "imags/aknoonslaider2.webp",
+                "2": "imags/aknoonslaider3.webp",
+                "3": "imags/aknoonslaider4.webp",
+                "4": "imags/aknoonslaider5.webp",
+                "5": "imags/aknoonslaider6.webp",
+                "6": "imags/aknoonslaider7.webp",
+                "7": "imags/aknoonslaider8.webp"
+            },
+            "img_t": {
+                "0": "رنگ انگشتی",
+                "1": "لباس پوشیدن",
+                "2": " رعد و برق",
+                "3": "  بادبادک بازی",
+                "4": "کوکو کوکو",
+                "5": "قوانین بازی",
+                "6": " وقتی برق می رود",
+                "7": "یه روز پاییزی"
+            }
+        },
+        {
+            "id": "5",
+            "background": "imags/dinnerback.webp",
+            "title": "شام ایرانی",
+            "info": "کارگردان: سعید ابوطالب",
+            "imdb": "8.2IMDb",
+            "type1": "  خانوادگی",
+            "type2": "درام",
+            "p": "فلامک جنیدی به تهیه یک غذای سخت فکر می کند . همسر و دوقلوهایش همزمان از خارج از کشور با او تماس می گیرند. فلامک رها خ...",
+            "class": "tasian",
+            "type": "series",
+            "logofilim": "imags/dinnerlogo.webp",
+            "img": {
+                "0": "imags/dinnerslaider1.webp",
+                "1": "imags/dinnerslaider2.webp",
+                "2": "imags/dinnerslaider3.webp",
+                "3": "imags/dinnerslaider4.webp"
+            },
+            "img_t": {
+                "0": "1فصل 1 : قسمت ",
+                "1": "2فصل  1: قسمت ",
+                "2": " فصل 1: قسمت 3",
+                "3": " فصل 1 قسمت 4"
+            }
+        },
+        {
+            "id": "6",
+            "background": "imags/azizback.webp",
+            "title": "عزیز",
+            "info": "کارگردان: مجید توکلی",
+            "imdb": "5.2IMDb",
+            "type1": "  درام",
+            "type2": "عاشقانه",
+            "p": "فیلم عزیز داستان زنی به همین نام را روایت می کند که با پیشرفت بیماری آلزایمر دست و پنجه نرم می کند. این بیماری نه تنها زندگی..",
+            "class": "tasian",
+            "type": "filims",
+            "logofilim": "imags/azizlogo.webp",
+            "itsFilm": true,
+            "parafilm": " بالای ۱۵ سال - یک ساعت و ۲۶ دقیقه - محصول ایران - ۱۴۰۲ - کیفیت HD"
+        },
+        {
+            "id": "7",
+            "background": "imags/fardaback.webp",
+            "title": "فردا",
+            "info": "کارگردان: هدی پاکدل",
+            "imdb": "5.2IMDb",
+            "type1": "  درام",
+            "type2": "خانوادگی",
+            "p": "فیلم فردا ، داستان دختری را روایت می کند که به عکاسی علاقه دارد و همراه با مادرش راهی سفری برای عکاسی می شود و اتفاقاتی ...",
+            "class": "tasian",
+            "type": "filims",
+            "itsFilm": true,
+            "parafilm": "بالای ۱۵ سال - یک ساعت و ۲۵ دقیقه - محصول ایران - ۱۳۹۲ - کیفیت HD"
+        },
+        {
+            "id": "8",
+            "background": "imags/khoshksaliback.webp",
+            "title": "خشکسالی و دروغ",
+            "info": "کارگردان : محمد یعقوبی ",
+            "imdb": "4.8IMDb",
+            "type1": "  درام",
+            "type2": "تئاتر",
+            "p": "زندگی قهرمان اتومبیل رانی ایرانی به نام لاله صدیق را روایت می کند که پر از حوادث و فراز و نشیب است...",
+            "class": "tasian",
+            "type": "filims",
+            "itsFilm": true,
+            "parafilm": "بالای ۱۵ سال - ۲ساعت - محصول ایران - ۲۰۲۱ - کیفیت HD"
+        },
+        {
+            "id": "9",
+            "background": "imags/natamamback.webp",
+            "title": "روایت ناتمام سیما",
+            "info": "کارگردان : اسد الله نیک نژاد ",
+            "imdb": "4.8IMDb",
+            "type1": "  درام",
+            "type2": "خانوادگی",
+            "p": "زندگی قهرمان اتومبیل رانی ایرانی به نام لاله صدیق را روایت می کند که پر از حوادث و فراز و نشیب است...",
+            "class": "tasian",
+            "type": "filims",
+            "itsFilm": true,
+            "logofilim": "imags/natamam.webp",
+            "parafilm": "بالای ۱۵ سال - ۲ساعت - محصول ایران - ۲۰۲۱ - کیفیت HD"
+        },
+        {
+            "id": "10",
+            "background": "imags/gharib.webp",
+            "title": "غریب",
+            "info": "کارگردان :محمدحسین لطیفی ",
+            "imdb": "5.8IMDb",
+            "type1": "  درام",
+            "type2": "بیوگرافی",
+            "p": "زندگی قهرمان اتومبیل رانی ایرانی به نام لاله صدیق را روایت می کند که پر از حوادث و فراز و نشیب است...",
+            "class": "tasian",
+            "type": "filims",
+            "itsFilm": true,
+            "parafilm": "بالای ۱۵ سال - ۲ساعت - محصول ایران - ۲۰۲۱ - کیفیت HD"
+        },
+        {
+            "id": "11",
+            "logofilim": "imags/laleh.webp",
+            "title": "لاله",
+            "info": "کارگردان : اسد الله نیک نژاد ",
+            "imdb": "4.8IMDb",
+            "type1": "  درام",
+            "type2": "خانوادگی",
+            "p": "زندگی قهرمان اتومبیل رانی ایرانی به نام لاله صدیق را روایت می کند که پر از حوادث و فراز و نشیب است...",
+            "class": "tasian",
+            "type": "filims",
+            "itsFilm": true,
+            "background": "imags/laleh.webp",
+            "parafilm": "بالای ۱۵ سال - ۲ساعت - محصول ایران - ۲۰۲۱ - کیفیت HD"
+        }
+    ],
+    "menuboton": [
+        {
+            "id": 1,
+            "title": "خرید اشتراک"
+        }
+    ],
+    "menuboton1": [
+        {
+            "id": 1,
+            "title": "ورود"
+        }
+    ],
+    "slaider": [
+        {
+            "id": 1,
+            "src": "imags/slaider1.webp",
+            "alt": "slaider"
+        },
+        {
+            "id": 2,
+            "src": "imags/slaider2.webp",
+            "alt": "slaider"
+        },
+        {
+            "id": 3,
+            "src": "imags/slaider3.webp",
+            "alt": "slaider"
+        },
+        {
+            "id": 4,
+            "src": "imags/slaider4.webp",
+            "alt": "slaider"
+        },
+        {
+            "id": 5,
+            "src": "imags/slaider5.webp",
+            "alt": "slaider"
+        },
+        {
+            "id": 6,
+            "src": "imags/slaider6.webp",
+            "alt": "slaider"
+        },
+        {
+            "id": 7,
+            "src": "imags/slaider7.webp",
+            "alt": "slaider"
+        },
+        {
+            "id": 8,
+            "src": "imags/slaider8.webp",
+            "alt": "slaider"
+        }
+    ],
+    "parent": [
+        {
+            "id": 1,
+            "title": "با فیلیمو بی‌وقفه فیلم ببین",
+            "class": "divch1"
+        },
+        {
+            "id": 2,
+            "title": "کنترل همیشه دست توست!",
+            "class": "divch12"
+        }
+    ],
+    "divch3": [
+        {
+            "id": "1",
+            "class": "ch4",
+            "img": "imags/icontrue.svg",
+            "title": " 100 هزار اپیزود فیلم و سریال برای تماشا داری"
+        },
+        {
+            "id": "2",
+            "class": "ch4",
+            "img": "imags/icontrue.svg",
+            "title": "می‌تونی دانلود کنی بعد بدون اینترنت تماشا کنی"
+        },
+        {
+            "id": "3",
+            "class": "ch4",
+            "img": "imags/icontrue.svg",
+            "title": "می‌تونی یک عضو، مخصوص تماشای کودک بسازی "
+        }
+    ],
+    "parent2": [
+        {
+            "id": "1",
+            "class": "buy",
+            "img": "imags/aparatimg.svg",
+            "title": "خرید اشتراک و تماشا"
+        },
+        {
+            "id": "2",
+            "class": "off",
+            "img": "imags/gift.svg",
+            "title": "تخفیف ویژه برای کاربران جدید"
+        }
+    ],
+    "mahboob": [
+        {
+            "id": "1",
+            "class": "mahboob1",
+            "title": "محبوب‌ترین‌های فیلیمو "
+        }
+    ],
+    "docme": [
+        {
+            "id": "1",
+            "class": "btn active",
+            "title": " سریال ",
+            "data": "series"
+        },
+        {
+            "id": "2",
+            "class": "btn active",
+            "title": " فیلم ",
+            "data": "filims"
+        }
+    ],
+    "tasvir": [
+        {
+            "id": "1",
+            "src": "imags/mahboob1.webp",
+            "type": "series"
+        },
+        {
+            "id": "2",
+            "src": "imags/mahbobo2.webp",
+            "type": "series"
+        },
+        {
+            "id": "3",
+            "src": "imags/mahboob3.webp",
+            "type": "series"
+        },
+        {
+            "id": "4",
+            "src": "imags/mahboob4.webp",
+            "type": "series"
+        },
+        {
+            "id": "5",
+            "src": "imags/mahboob5.webp",
+            "type": "series"
+        },
+        {
+            "id": "6",
+            "src": "imags/mahboob6.webp",
+            "type": "series"
+        },
+        {
+            "id": "7",
+            "src": "imags/mahboob7.webp",
+            "type": "filims"
+        },
+        {
+            "id": "8",
+            "src": "imags/mahboob8.webp",
+            "type": "filims"
+        },
+        {
+            "id": "9",
+            "src": "imags/mahboob10.webp",
+            "type": "filims"
+        },
+        {
+            "id": "10",
+            "src": "imags/mahboob9.webp",
+            "type": "filims"
+        },
+        {
+            "id": "11",
+            "src": "imags/mahboob11.webp",
+            "type": "filims"
+        },
+        {
+            "id": "12",
+            "src": "imags/mahboob12.webp",
+            "type": "filims"
+        }
+    ],
+    "forimg": [
+        {
+            "id": "1",
+            "src": "imags/tasianback.webp",
+            "type": "series"
+        }
+    ],
+    "mtnfilm": [
+        {
+            "id": "1",
+            "title": "تاسیان",
+            "class": "tasian",
+            "type": "series"
+        },
+        {
+            "id": "2",
+            "title": "کارگردان: تینا پاکروان",
+            "class": "kargardan",
+            "type": "series"
+        }
+    ],
+    "hp": [
+        {
+            "id": "1",
+            "title": "8.2IMDb",
+            "class": "onvan1",
+            "type": "series"
+        },
+        {
+            "id": "2",
+            "title": "درام",
+            "class": "onvan",
+            "type": "series"
+        },
+        {
+            "id": "3",
+            "title": "عاشقانه",
+            "class": "onvan",
+            "type": "series"
+        }
+    ],
+    "stori": [
+        {
+            "id": "1",
+            "title": "چهارشنبه سوری برای خانواده نجات پریدن از آتش و برای جمشید نجات گر گرفتن به آتش خسرو می شود…",
+            "type": "series"
+        }
+    ],
+    "logofilim": [
+        {
+            "id": "1",
+            "src": "imags/tsian.webp",
+            "type": "series"
+        }
+    ],
+    "v1": [
+        {
+            "id": "1",
+            "src": "imags/tasianp1.webp",
+            "type": "series"
+        }
+    ],
+    "cover2": [
+        {
+            "id": "1",
+            "class": "free",
+            "title": "رایگان",
+            "type": "series"
+        },
+        {
+            "id": "2",
+            "class": "time",
+            "title": "0:56:37",
+            "type": "series"
+        }
+    ],
+    "part1": [
+        {
+            "id": "1",
+            "title": " فصل 1 قسمت 1: ده شب",
+            "type": "series"
+        }
+    ],
+    "v": [
+        {
+            "id": "1",
+            "src": "imags/tasianp2.webp",
+            "type": "series"
+        }
+    ],
+    "cover3": [
+        {
+            "id": "1",
+            "src": "imags/close.webp",
+            "type": "series"
+        }
+    ],
+    "part": [
+        {
+            "id": "1",
+            "title": " فصل 1 قسمت 2: عاشقش نیستم",
+            "type": "series"
+        }
+    ],
+    "v2": [
+        {
+            "id": "1",
+            "src": "imags/tasianp3.webp",
+            "type": "series"
+        }
+    ],
+    "cover4": [
+        {
+            "id": "1",
+            "src": "imags/close.webp",
+            "type": "series"
+        }
+    ],
+    "part4": [
+        {
+            "id": "1",
+            "title": " فصل 1 قسمت 3: بلیط بخت",
+            "type": "series"
+        }
+    ],
+    "v5": [
+        {
+            "id": "1",
+            "src": "imags/tasianp4.webp",
+            "type": "series"
+        }
+    ],
+    "cover5": [
+        {
+            "id": "1",
+            "src": "imags/close.webp",
+            "type": "series"
+        }
+    ],
+    "part5": [
+        {
+            "id": "1",
+            "title": " فصل 1 قسمت 4: خسرو و شیرین ",
+            "type": "series"
+        }
+    ],
+    "v6": [
+        {
+            "id": "1",
+            "src": "imags/tasianp5.webp",
+            "type": "series"
+        }
+    ],
+    "cover6": [
+        {
+            "id": "1",
+            "src": "imags/close.webp",
+            "type": "series"
+        }
+    ],
+    "part6": [
+        {
+            "id": "1",
+            "title": " فصل 1 قسمت 5: امکان دوم ",
+            "type": "series"
+        }
+    ],
+    "v7": [
+        {
+            "id": "1",
+            "src": "imags/tasianp6.webp",
+            "type": "series"
+        }
+    ],
+    "cover7": [
+        {
+            "id": "1",
+            "src": "imags/close.webp",
+            "type": "series"
+        }
+    ],
+    "part7": [
+        {
+            "id": "1",
+            "title": "فصل 1 قسمت 6: مرداب  ",
+            "type": "series"
+        }
+    ],
+    "v8": [
+        {
+            "id": "1",
+            "src": "imags/tasianp7.webp",
+            "type": "series"
+        }
+    ],
+    "cover8": [
+        {
+            "id": "1",
+            "src": "imags/close.webp",
+            "type": "series"
+        }
+    ],
+    "part8": [
+        {
+            "id": "1",
+            "title": "فصل 1 قسمت 7: روز مادر",
+            "type": "series"
+        }
+    ],
+    "v9": [
+        {
+            "id": "1",
+            "src": "imags/tasianp9.webp",
+            "type": "series"
+        }
+    ],
+    "cover9": [
+        {
+            "id": "1",
+            "src": "imags/close.webp",
+            "type": "series"
+        }
+    ],
+    "part9": [
+        {
+            "id": "1",
+            "title": " فصل 1 قسمت 8: وداع با اسلحه",
+            "type": "series"
+        }
+    ],
+    "photo": [
+        {
+            "id": "1",
+            "src": "imags/eshterackimg.webp"
+        }
+    ],
+    "one": [
+        {
+            "id": "1",
+            "title": "تماشای فیلیمو با همه دستگاه‌ها ",
+            "class": "tamasha"
+        },
+        {
+            "id": "2",
+            "title": "می‌توانید فیلیمو را به صورت هم‌زمان روی 3 دستگاه مختلف مثل موبایل،تبلت، لپ‌تاپ، تلویزیون و... تماشا کنید.",
+            "class": "there"
+        }
+    ],
+    "laptop": [
+        {
+            "id": "1",
+            "title": " کامپیوتر و لپ‌تاپ",
+            "src": "imags/laptopuy.webp"
+        }
+    ],
+    "ti": [
+        {
+            "id": "1",
+            "title": " windows PC - MacOS - Chorom OS "
+        }
+    ],
+    "mobile": [
+        {
+            "id": "1",
+            "title": "موبایل و تبلت ",
+            "src": "./imags/mobilebuy.webp"
+        }
+    ],
+    "ti1": [
+        {
+            "id": "1",
+            "title": " windows PC - MacOS - Chorom OS "
+        }
+    ],
+    "consol": [
+        {
+            "id": "1",
+            "title": " کنسول‌های بازی (Browser) ",
+            "src": "./imags/gamebuy.webp"
+        }
+    ],
+    "ti3": [
+        {
+            "id": "1",
+            "title": "Xbox Series S - Xbox Seris X - PS5 - PS4"
+        }
+    ],
+    "buy1": [
+        {
+            "id": "1",
+            "title": "خرید اشتراک و تماشا",
+            "class": "mtn1",
+            "src": "./imags/aparatimg.svg"
+        }
+    ],
+    "tamasha2": [
+        {
+            "id": "1",
+            "title": "تماشای فیلیمو با همه دستگاه‌ها "
+        }
+    ],
+    "theree": [
+        {
+            "id": "1",
+            "title": " ما برای راحتی شما و تماشای فیلیمو روی تلویزیون‌های مختلف 6 روش را فراهم کردیم. هرکدام از این 6 روش یک ویدیو آموزشی دارند که می‌توانید از لینک زیر، آن‌ها را تماشا کنید و روشی که با تلویزیون شما سازگار است را انتخاب کنید.   "
+        }
+    ],
+    "laptopp": [
+        {
+            "id": "1",
+            "src": "./imags/tvhow.webp",
+            "title": "تلویزیون"
+        }
+    ],
+    "tii": [
+        {
+            "id": "1",
+            "title": "Amazon Fire TV - LG TVs - Chrome Cast - Apple TV - Android TV devices - Samsung"
+        }
+    ],
+    "mobilee": [
+        {
+            "id": "1",
+            "src": "./imags/buthow.webp",
+            "title": "اندروید تی‌وی"
+        }
+    ],
+    "tii1": [
+        {
+            "id": "1",
+            "title": " NVIDIA - amazon - xiaomi - minix - skystream - turewell - ematic - humax - matricom"
+        }
+    ],
+    "buuy1": [
+        {
+            "id": "1",
+            "title": "  ویدیوهای آموزشی تماشا با تلویزیون  >",
+            "class": "mtnn1"
+        }
+    ],
+    "tasvirtamasha": [
+        {
+            "id": "1",
+            "src": "./imags/imghow.webp"
+        }
+    ],
+    "frees22": [
+        {
+            "id": "1",
+            "title": "محتواهای رایگان "
+        }
+    ],
+    "wra": [
+        {
+            "id": "1",
+            "class": "swiper-slide",
+            "src": "./imags/paitakht.webp",
+            "title": " پایتخت "
+        },
+        {
+            "id": "2",
+            "class": "swiper-slide",
+            "src": "./imags/aghrab.webp",
+            "title": " عقرب "
+        },
+        {
+            "id": "3",
+            "class": "swiper-slide",
+            "src": "./imags/malake.webp",
+            "title": "ملکه گدایان "
+        },
+        {
+            "id": "4",
+            "class": "swiper-slide",
+            "src": "./imags/paitakht.webp",
+            "title": " پایتخت "
+        },
+        {
+            "id": "5",
+            "class": "swiper-slide",
+            "src": "imags/free5.webp",
+            "title": " ویرانگر "
+        },
+        {
+            "id": "6",
+            "class": "swiper-slide",
+            "src": "imags/free16.webp",
+            "title": " شاهرگ "
+        },
+        {
+            "id": "7",
+            "class": "swiper-slide",
+            "src": "imags/free7.webp",
+            "title": " بالشها "
+        },
+        {
+            "id": "8",
+            "class": "swiper-slide",
+            "src": "imags/free9.webp",
+            "title": "حماسه دره شیلر"
+        },
+        {
+            "id": "9",
+            "class": "swiper-slide",
+            "src": "imags/free10.webp",
+            "title": "راز دشت تاران"
+        },
+        {
+            "id": "10",
+            "class": "swiper-slide",
+            "src": "imags/free11.webp",
+            "title": " چپ دست"
+        },
+        {
+            "id": "11",
+            "class": "swiper-slide",
+            "src": "imags/free12.webp",
+            "title": "۲ شب های مافیا  "
+        },
+        {
+            "id": "13",
+            "class": "swiper-slide",
+            "src": "imags/free13.webp",
+            "title": " مردم معمولی"
+        },
+        {
+            "id": "14",
+            "class": "swiper-slide",
+            "src": "imags/free14.webp",
+            "title": " دیرین دیرین"
+        },
+        {
+            "id": "15",
+            "class": "swiper-slide",
+            "src": "imags/free15.webp",
+            "title": " سال های دور از خانه"
+        },
+        {
+            "id": "16",
+            "class": "swiper-slide",
+            "src": "imags/free6.webp",
+            "title": " زهر عسل"
+        }
+    ],
+    "girl": [
+        {
+            "id": 1,
+            "src": "./imags/girl.webp"
+        }
+    ],
+    "donia": [
+        {
+            "id": 1,
+            "class": "tamasha3",
+            "title": "دنیایی متنوع از فیلم و کارتون‌های کودکانه"
+        },
+        {
+            "id": 2,
+            "class": "thereee",
+            "title": "ساخت فیلیمو کودک این امکان را می‌دهد که با انتخاب سن فرزندتان، یک فضای امن برای تماشای کودک بسازید؛ یعنی محتوای مخصوص سن خودش را ببیند و به بقیه فیلم و سریال‌ها دسترسی نداشته‌باشد."
+        }
+    ],
+    "koodak": [
+        {
+            "id": 1,
+            "class": "buuy2",
+            "title": "فیلیمو کودک بساز"
+        },
+        {
+            "id": 2,
+            "class": "buuy3",
+            "title": " تماشای فیلیمو کودک "
+        }
+    ],
+    "red": [
+        {
+            "id": 1,
+            "src": "./imags/onlinfilimo.webp"
+        }
+    ],
+    "cinama": [
+        {
+            "id": 1,
+            "title": "سینما آنلاین فیلیمو"
+        }
+    ],
+    "ekran": [
+        {
+            "id": 1,
+            "class": "ekran1",
+            "src": "./imags/icontrue.svg",
+            "title": "فیلم‌های روز سینمای ایران را از خانه تماشا می‌کنید."
+        },
+        {
+            "id": 2,
+            "class": "ekran1",
+            "src": "./imags/icontrue.svg",
+            "title": "با خرید یک بلیت، با همه خانواده فیلم می‌بینید.."
+        },
+        {
+            "id": 3,
+            "class": "ekran1",
+            "src": "./imags/icontrue.svg",
+            "title": "فیلم‌های روز سینمای ایران را از خانه تماشا می‌کنید."
+        }
+    ],
+    "twos": [
+        {
+            "id": 1,
+            "class": "haftad",
+            "newclass1": "khatat",
+            "src": "./imags/7030.webp",
+            "newclass2": "ce",
+            "newclass3": "namefilim",
+            "title": " هفتاد سی",
+            "newclass4": "bahram",
+            "newtitle1": " کارگردان: بهرام افشاری",
+            "newclass5": "jhanr",
+            "p1": "کمدی",
+            "p2": "درام",
+            "newclass6": "ticket",
+            "newtitle2": " خرید بلیط ",
+            "newclass7": "shop",
+            "newclass8": "kharid",
+            "newtitle3": " اکران آنلاین "
+        },
+        {
+            "id": 2,
+            "class": "haftad",
+            "newclass1": "khatat",
+            "src": "./imags/fish.webp",
+            "newclass2": "ce",
+            "newclass3": "namefilim",
+            "title": " فصل ماهی سفید",
+            "newclass4": "bahram",
+            "newtitle1": " کارگردان: قربان نجفی",
+            "newclass5": "jhanr",
+            "p1": "درام",
+            "p2": "خانوادگی",
+            "newclass6": "ticket",
+            "newtitle2": " خرید بلیط ",
+            "newclass7": "shop",
+            "newclass8": "kharid",
+            "newtitle3": " اکران آنلاین "
+        }
+    ],
+    "zood": [
+        {
+            "id": 1,
+            "newclass1": "khatat1",
+            "src": "./imags/zodpaz.webp",
+            "newclass2": "ce1",
+            "newclass3": "namefilim1",
+            "title": "  زودپز",
+            "newclass4": "bahram1",
+            "newtitle1": " کارگردان: رامبد  جوان",
+            "newclass5": "jhanr1",
+            "p1": "کمدی",
+            "p2": "خانوادگی",
+            "newclass6": "ticket1",
+            "newtitle2": " خرید بلیط ",
+            "newclass7": "shop1",
+            "newclass8": "kharid1",
+            "newtitle3": " اکران آنلاین "
+        }
+    ],
+    "member": [
+        {
+            "id": "1",
+            "title": "نظر کاربران بعد از تماشای فیلیمو"
+        }
+    ],
+    "all": [
+        {
+            "id": "1",
+            "class": "swiper-slide",
+            "class1": "moshakhasat",
+            "class3": "pro",
+            "src": "./imags/pro.webp",
+            "class4": "firstname",
+            "title": " aref",
+            "class5": "cama",
+            "src1": "./imags/cama.webp",
+            "class6": "nazar",
+            "title1": " عالیه خیلی فیلم و سریال های قشنگی داره "
+        },
+        {
+            "id": "2",
+            "class": "swiper-slide",
+            "class1": "moshakhasat",
+            "class3": "pro",
+            "src": "./imags/pro.webp",
+            "class4": "firstname",
+            "title": " RAMTIN",
+            "class5": "cama",
+            "src1": "./imags/cama.webp",
+            "class6": "nazar",
+            "title1": "  خیلی برنامه خوبی هست و خیلی سریال متنوع داره "
+        },
+        {
+            "id": "3",
+            "class": "swiper-slide",
+            "class1": "moshakhasat",
+            "class3": "pro",
+            "src": "./imags/pro.webp",
+            "class4": "firstname",
+            "title": " mostafa",
+            "class5": "cama",
+            "src1": "./imags/cama.webp",
+            "class6": "nazar",
+            "title1": "  از وقتی فیلیمو رو نصب کردم دیگه تلوزیون نگاه نمیکنم  "
+        },
+        {
+            "id": "3",
+            "class": "swiper-slide",
+            "class1": "moshakhasat",
+            "class3": "pro",
+            "src": "./imags/pro.webp",
+            "class4": "firstname",
+            "title": " آوا",
+            "class5": "cama",
+            "src1": "./imags/cama.webp",
+            "class6": "nazar",
+            "title1": " فیلیمو عالی من از فیلیمو رازی هستم❤❤😍🤩😘❤🍓 "
+        },
+        {
+            "id": "4",
+            "class": "swiper-slide",
+            "class1": "moshakhasat",
+            "class3": "pro",
+            "src": "./imags/pro.webp",
+            "class4": "firstname",
+            "title": " F.A",
+            "class5": "cama",
+            "src1": "./imags/cama.webp",
+            "class6": "nazar",
+            "title1": " خیلی خوبه تازه فیلم های 2021 رو هم با دوبله داره "
+        },
+        {
+            "id": "5",
+            "class": "swiper-slide",
+            "class1": "moshakhasat",
+            "class3": "pro",
+            "src": "./imags/pro.webp",
+            "class4": "firstname",
+            "title": " Manidriver",
+            "class5": "cama",
+            "src1": "./imags/cama.webp",
+            "class6": "nazar",
+            "title1": " فیلیمو راضیوم ازت😍😍"
+        },
+        {
+            "id": "6",
+            "class": "swiper-slide",
+            "class1": "moshakhasat",
+            "class3": "pro",
+            "src": "./imags/pro.webp",
+            "class4": "firstname",
+            "title": " ستایش",
+            "class5": "cama",
+            "src1": "./imags/cama.webp",
+            "class6": "nazar",
+            "title1": " عالیییبیبیییییییی پیشنهاد میکنم نصب کنید 🤗🤗"
+        },
+        {
+            "id": "7",
+            "class": "swiper-slide",
+            "class1": "moshakhasat",
+            "class3": "pro",
+            "src": "./imags/pro.webp",
+            "class4": "firstname",
+            "title": " نیکا کاوند ",
+            "class5": "cama",
+            "src1": "./imags/cama.webp",
+            "class6": "nazar",
+            "title1": " واقعا عالیه.😚 خیلی برنامه عالیه😻😻 "
+        }
+    ],
+    "accordionItems": [
+        {
+            "question": "آیا می‌توانم فیلم‌های موجود در فیلیمو را دانلود کنم؟",
+            "answer": " بله، شما می‌توانید همه فیلم‌ و سریال‌های فیلیمو را داخل خود اپلیکیشن فیلیمو دانلود کنید و برای زمان‌هایی که اینترنت ندارید یا در سفر، هواپیما و قطار آ‌ن‌ها را تماشا کنید. برای دانلود هم از طریق رایانه و هم از طریق خود اپلیکیشن فیلیمو می‌توانید اقدام‌کنید. برای جزییات بیشتر می‌توانید فیلم‌های آموزشی مربوط به  دانلود از طریق سایت ... "
+        },
+        {
+            "question": "آیا فیلیمو برای خارج از ایران در دسترس است؟",
+            "answer": "خیر. درحال حاضر تماشای فیلیمو فقط در داخل کشور فعال است و امکان تماشا برای افراد خارج از کشور فعال نیست."
+        },
+        {
+            "question": "آیا برای تماشای فیلم‌های اکران آنلاین، باید اشتراک بخرم؟",
+            "answer": "تماشای فیلم‌های اکران آنلاین مانند تماشا در سینمای واقعی است؛ یعنی برای دیدن هر فیلم که در اکران آنلاین است باید بلیت تهیه کنید و به جای رفتن به سالن سینما، 8 ساعت فرصت دارید که آن فیلم را از داخل خانه تماشا کنید."
+        },
+        {
+            "question": "از کجا می‌توانم نرم‌افزار اندروید یا iOS فیلیمو را دانلود کنم؟",
+            "answer": "برای نصب نرم‌افزار اندرویدی فیلیمو می‌توانید ازطریق کافه بازار یا مایکت اقدام به دانلود کنید. یا می‌توانید روی گزینه روبرو بزنید و به‌طور مستقیم فایل نرم‌افزار را دریافت کنید. "
+        }
+    ],
+    "footerMenu": [
+        {
+            "items": [
                 {
-             "id" : "1",
-             "class" : "ch4",
-             "img" : "./imags/icontrue.svg",
-             "title" : " 100 هزار اپیزود فیلم و سریال برای تماشا داری"
-            },
+                    "title": "تماشا‌ با تلویزیون"
+                },
                 {
-             "id" : "2",
-             "class" : "ch4",
-             "img" : "./imags/icontrue.svg",
-             "title" : "می‌تونی دانلود کنی بعد بدون اینترنت تماشا کنی"
-            },
+                    "title": "اپلیکیشن‌ها"
+                },
                 {
-             "id" : "3",
-             "class" : "ch4",
-             "img" : "./imags/icontrue.svg",
-             "title" : "می‌تونی یک عضو، مخصوص تماشای کودک بسازی "
-            }
-        ],
-            "parent2" :[
+                    "title": "تماس و پشتیبانی"
+                },
                 {
-             "id" : "1",
-             "class" : "buy",
-             "img" : "./imags/aparatimg.svg",
-             "title" :              "خرید اشتراک و تماشا"
-
-            },
+                    "title": "فروشگاه"
+                },
                 {
-             "id" : "2",
-             "class" : "off",
-             "img" : "./imags/gift.svg",
-             "title" :  "تخفیف ویژه برای کاربران جدید"
-            }
-        ],
-            "mahboob" :[
-                {
-             "id" : "1",
-             "class" : "mahboob1",
-             "title" : "محبوب‌ترین‌های فیلیمو "
-
-            }
-        ],
-            "docme" :[
-                {
-             "id" : "1",
-             "class" : "btn active",
-             "title" : " سریال ",
-             "data" : "series"
-
-            },
-                {
-             "id" : "2",
-             "class" : "btn active",
-             "title" : " فیلم ",
-             "data" : "filims"
-
-            }
-        ],
-            "tasvir" :[
-                {
-             "id" : "1",
-            "src": "/imags/mahboob1.webp",
-            "type" : "series"
-            },
-               
-                {
-             "id" : "2",
-            "src": "./imags/mahbobo2.webp",
-            "type" : "series"
-
-
-            },
-               
-                {
-             "id" : "3",
-            "src": "/imags/mahboob3.webp",
-            "type" : "series"
-
-
-            },
-               
-                {
-             "id" : "4",
-            "src": "/imags/mahboob4.webp",
-            "type" : "series"
-
-
-            },
-               
-                {
-             "id" : "5",
-            "src": "/imags/mahboob5.webp",
-            "type" : "series"
-             
-            },
-               
-                {
-             "id" : "6",
-            "src": "/imags/mahboob6.webp",
-            "type" : "series"
-
-
-            },
-                {
-             "id" : "7",
-            "src": "/imags/mahboob7.webp",
-            "type" : "filims"
-
-
-            },
-                {
-             "id" : "8",
-            "src": "/imags/mahboob8.webp",
-            "type" : "filims"
-
-
-            },
-                {
-             "id" : "9",
-            "src": "/imags/mahboob10.webp",
-            "type" : "filims"
-
-
-            },
-                {
-             "id" : "10",
-            "src": "/imags/mahboob9.webp",
-            "type" : "filims"
-
-
-            },
-                {
-             "id" : "11",
-            "src": "/imags/mahboob11.webp",
-            "type" : "filims"
-
-
-            },
-                {
-             "id" : "12",
-            "src": "/imags/mahboob12.webp",
-            "type" : "filims"
-
-
-    
-                }
-        ],
-
-        "forimg" : [
-            {
-            "id" : "1",
-            "src" : "./imags/tasianback.webp",
-            "type" : "series"
-
-            }
-        ],
-        "mtnfilm" : [
-            {
-            "id" : "1",
-            "title" : "تاسیان",
-            "class" : "tasian",
-            "type" : "series"
-
-            },
-            {
-            "id" : "2",
-            
-            "title" : "کارگردان: تینا پاکروان",
-            "class" : "kargardan",
-            "type" : "series"
-
-            }
-        ],
-        "hp" : [
-            {
-            "id" : "1",
-            "title" : "8.2IMDb",
-            "class" : "onvan1",
-            "type" : "series"
-
-            },
-            {
-            "id" : "2",
-            "title" : "درام",
-            "class" : "onvan",
-            "type" : "series"
-
-            },
-            {
-            "id" : "3",
-            "title" : "عاشقانه",
-            "class" : "onvan",
-            "type" : "series"
-
-            }
-        ],
-        "stori" : [
-            {
-            "id" : "1",
-            "title" : "چهارشنبه سوری برای خانواده نجات پریدن از آتش و برای جمشید نجات گر گرفتن به آتش خسرو می شود…",
-            "type" : "series"
-
-            }
-        ],
-        "logofilim" : [
-            {
-            "id" : "1",
-            "src" : "./imags/tsian.webp",
-            "type" : "series"
-
-            }
-        ],
-        "v1" : [
-            {
-            "id" : "1",
-            "src" : "./imags/tasianp1.webp",
-            "type" : "series"
-
-            }
-        ],
-        "cover2" : [
-            {
-            "id" : "1",
-            "class" : "free",
-            "title" : "رایگان",
-            "type" : "series"
-
-            },
-            {
-            "id" : "2",
-            "class" : "time",
-            "title" : "0:56:37",
-            "type" : "series"
-
-            }
-        ],
-        "part1" : [
-            {
-            "id" : "1",
-            "title" : " فصل 1 قسمت 1: ده شب",
-            "type" : "series"
-
-            }
-        ],
-        "v" : [
-            {
-            "id" : "1",
-            "src" : "./imags/tasianp2.webp",
-            "type" : "series"
-
-            }
-        ],
-        "cover3" : [
-            {
-            "id" : "1",
-            "src" : "./imags/close.webp",
-            "type" : "series"
-
-            }
-        ],
-        "part" : [
-            {
-            "id" : "1",
-            "title" : " فصل 1 قسمت 2: عاشقش نیستم",
-            "type" : "series"
-
-            }
-        ],
-        "v2" : [
-            {
-            "id" : "1",
-            "src" : "./imags/tasianp3.webp",
-            "type" : "series"
-
-            }
-        ],
-        "cover4" : [
-            {
-            "id" : "1",
-            "src" : "./imags/close.webp" ,
-            "type" : "series"
-
-            }
-        ],
-        "part4" : [
-            {
-            "id" : "1",
-            "title" : " فصل 1 قسمت 3: بلیط بخت",
-            "type" : "series"
-
-            }
-        ],
-        "v5" : [
-            {
-            "id" : "1",
-            "src" : "./imags/tasianp4.webp",
-            "type" : "series"
-
-            }
-        ],
-        "cover5" : [
-            {
-            "id" : "1",
-            "src" : "./imags/close.webp" ,
-            "type" : "series"
-
-            }
-        ],
-        "part5" : [
-            {
-            "id" : "1",
-            "title" : " فصل 1 قسمت 4: خسرو و شیرین ",
-            "type" : "series"
-
-            }
-        ],
-        "v6" : [
-            {
-            "id" : "1",
-            "src" : "./imags/tasianp5.webp",
-            "type" : "series"
-
-            }
-        ],
-        "cover6" : [
-            {
-            "id" : "1",
-            "src" : "./imags/close.webp" ,
-            "type" : "series"
-
-            }
-        ],
-        "part6" : [
-            {
-            "id" : "1",
-            "title" : " فصل 1 قسمت 5: امکان دوم ",
-            "type" : "series"
-
-            }
-        ],
-        "v7" : [
-            {
-            "id" : "1",
-            "src" : "./imags/tasianp6.webp" ,
-            "type" : "series"
-
-            }
-        ],
-        "cover7" : [
-            {
-            "id" : "1",
-            "src" : "./imags/close.webp",
-            "type" : "series"
-
-            }
-        ],
-        "part7" : [
-            {
-            "id" : "1",
-            "title" : "فصل 1 قسمت 6: مرداب  ",
-            "type" : "series"
-
-            }
-        ],
-        "v8" : [
-            {
-            "id" : "1",
-            "src" : "./imags/tasianp7.webp",
-            "type" : "series"
-
-            }
-        ],
-        "cover8" : [
-            {
-            "id" : "1",
-            "src" : "./imags/close.webp",
-            "type" : "series"
-
-            }
-        ],
-        "part8" : [
-            {
-            "id" : "1",
-            "title" :   "فصل 1 قسمت 7: روز مادر",
-            "type" : "series"
-
-
-            }
-        ],
-        "v9" : [
-            {
-            "id" : "1",
-            "src" : "./imags/tasianp9.webp",
-            "type" : "series"
-
-            }
-        ],
-        "cover9" : [
-            {
-            "id" : "1",
-            "src" :"./imags/close.webp" ,
-            "type" : "series"
-
-            }
-        ],
-        "part9" : [
-            {
-            "id" : "1",
-            "title" :   " فصل 1 قسمت 8: وداع با اسلحه",
-            "type" : "series"
-
-            }
-        ],
-        "photo" : [
-            {
-            "id" : "1",
-           "src" : "./imags/eshterackimg.webp"
-
-            }
-        ],
-        "one" : [
-            {
-            "id" : "1",
-            "title" :   "تماشای فیلیمو با همه دستگاه‌ها ",
-            "class" : "tamasha"
-
-            },
-            {
-            "id" : "2",
-            "title" :   "می‌توانید فیلیمو را به صورت هم‌زمان روی 3 دستگاه مختلف مثل موبایل،تبلت، لپ‌تاپ، تلویزیون و... تماشا کنید.",
-            "class" : "there"
-
-            }
-        ],
-        
-        "laptop" : [
-            {
-            "id" : "1",
-            "title" :   " کامپیوتر و لپ‌تاپ",
-            "src" : "./imags/laptopuy.webp" 
-            }
-        ],
-        "ti" : [
-            {
-            "id" : "1",
-            "title" :   " windows PC - MacOS - Chorom OS "
-            }
-        ],
-        "mobile" : [
-            {
-            "id" : "1",
-            "title" :   "موبایل و تبلت ",
-            "src" : "./imags/mobilebuy.webp"
-            }
-        ],
-        "ti1" : [
-            {
-            "id" : "1",
-            "title" :   " windows PC - MacOS - Chorom OS "
-            }
-        ],
-        "consol" : [
-            {
-            "id" : "1",
-            "title" :   " کنسول‌های بازی (Browser) ",
-            "src" : "./imags/gamebuy.webp" 
-            }
-        ],
-        "ti3" : [
-            {
-            "id" : "1",
-            "title" :   "Xbox Series S - Xbox Seris X - PS5 - PS4"
-            }
-        ],
-        "buy1" : [
-            {
-            "id" : "1",
-            "title" :   "خرید اشتراک و تماشا",
-            "class" : "mtn1",
-            "src" : "./imags/aparatimg.svg" 
-            }
-        ],
-        "tamasha2" : [
-            {
-            "id" : "1",
-            "title" :   "تماشای فیلیمو با همه دستگاه‌ها "
-            } 
-        ],
-        "theree" : [
-            {
-            "id" : "1",
-            "title" :   " ما برای راحتی شما و تماشای فیلیمو روی تلویزیون‌های مختلف 6 روش را فراهم کردیم. هرکدام از این 6 روش یک ویدیو آموزشی دارند که می‌توانید از لینک زیر، آن‌ها را تماشا کنید و روشی که با تلویزیون شما سازگار است را انتخاب کنید.   "
-            } 
-        ],
-        "laptopp" : [
-            {
-            "id" : "1",
-            "src" : "./imags/tvhow.webp",
-            "title" :   "تلویزیون"
-            }
-        ],
-        "tii" : [
-            {
-            "id" : "1",
-            "title" :   "Amazon Fire TV - LG TVs - Chrome Cast - Apple TV - Android TV devices - Samsung"
-            }
-        ],
-        "mobilee" : [
-            {
-            "id" : "1",
-            "src" : "./imags/buthow.webp",
-            "title" :   "اندروید تی‌وی"
-            }
-        ],
-        "tii1" : [
-            {
-            "id" : "1",
-            "title" :   " NVIDIA - amazon - xiaomi - minix - skystream - turewell - ematic - humax - matricom"
-            }
-        ],
-        "buuy1" : [
-            {
-            "id" : "1",
-            "title" :   "  ویدیوهای آموزشی تماشا با تلویزیون  >",
-            "class" : "mtnn1"
-            }
-        ],
-        "tasvirtamasha" : [
-            {
-            "id" : "1",
-            "src" : "./imags/imghow.webp" 
-            }
-        ],
-        "frees22" : [
-            {
-            "id" : "1",
-            "title" : "محتواهای رایگان " 
-            }
-        ],
-        "wra" : [
-            {
-            "id" : "1",
-            "class" :"swiper-slide",
-            "src" : "./imags/paitakht.webp",
-            "title" : " پایتخت " 
-            },
-            {
-            "id" : "2",
-            "class" :"swiper-slide",
-            "src" : "./imags/aghrab.webp",
-            "title" : " عقرب " 
-            },
-            {
-            "id" : "3",
-            "class" :"swiper-slide",
-            "src" : "./imags/malake.webp",
-            "title" : "ملکه گدایان " 
-            },
-            {
-            "id" : "4",
-            "class" :"swiper-slide",
-            "src" : "./imags/paitakht.webp",
-            "title" : " پایتخت " 
-            },
-            {
-            "id" : "5",
-            "class" :"swiper-slide",
-            "src" : "imags/free5.webp",
-            "title" : " ویرانگر " 
-            },
-            {
-            "id" : "6",
-            "class" :"swiper-slide",
-            "src" : "imags/free16.webp",
-            "title" : " شاهرگ " 
-            },
-            {
-            "id" : "7",
-            "class" :"swiper-slide",
-            "src" : "imags/free7.webp",
-            "title" : " بالشها " 
-            },
-            {
-            "id" : "8",
-            "class" :"swiper-slide",
-            "src" : "imags/free9.webp",
-            "title" : "حماسه دره شیلر" 
-            },
-            {
-            "id" : "9",
-            "class" :"swiper-slide",
-            "src" : "imags/free10.webp" ,
-            "title" : "راز دشت تاران" 
-            },
-            {
-            "id" : "10",
-            "class" :"swiper-slide",
-            "src" : "imags/free11.webp",
-            "title" : " چپ دست" 
-            },
-            {
-            "id" : "11",
-            "class" :"swiper-slide",
-            "src" : "imags/free12.webp",
-            "title" : "۲ شب های مافیا  " 
-            },
-            {
-            "id" : "13",
-            "class" :"swiper-slide",
-            "src" : "imags/free13.webp",
-            "title" : " مردم معمولی" 
-            },
-            {
-            "id" : "14",
-            "class" :"swiper-slide",
-            "src" : "imags/free14.webp",
-            "title" : " دیرین دیرین" 
-            },
-            {
-            "id" : "15",
-            "class" :"swiper-slide",
-            "src" : "imags/free15.webp",
-            "title" : " سال های دور از خانه" 
-            },
-            {
-            "id" : "16",
-            "class" :"swiper-slide",
-            "src" : "imags/free6.webp",
-            "title" : " زهر عسل" 
-            }
-        ],
-        "girl" : [
-            {
-                "id":1,
-                "src" :"./imags/girl.webp" 
-            }
-        ],
-        "donia" : [
-            {
-                "id":1,
-                "class" : "tamasha3",
-                "title" :"دنیایی متنوع از فیلم و کارتون‌های کودکانه" 
-            },
-            {
-                "id":2,
-                "class" : "thereee",
-                "title" :"ساخت فیلیمو کودک این امکان را می‌دهد که با انتخاب سن فرزندتان، یک فضای امن برای تماشای کودک بسازید؛ یعنی محتوای مخصوص سن خودش را ببیند و به بقیه فیلم و سریال‌ها دسترسی نداشته‌باشد." 
-            }
-      
-        ],
-        "koodak" : [
-            {
-                "id":1,
-                "class" : "buuy2",
-                
-                "title" :"فیلیمو کودک بساز" 
-            },
-            {
-                "id":2,
-                "class" : "buuy3",
-                "title" :" تماشای فیلیمو کودک " 
-
-            }
-      
-        ],
-        "red" : [
-            {
-                "id":1,
-                "src" : "./imags/onlinfilimo.webp"
-            }
-      
-        ],
-        "cinama" : [
-            {
-                "id":1,
-                "title" : "سینما آنلاین فیلیمو"
-            }
-      
-        ],
-        "ekran" : [
-            {
-                "id":1,
-                "class" :"ekran1",
-                "src" : "./imags/icontrue.svg",
-                "title" : "فیلم‌های روز سینمای ایران را از خانه تماشا می‌کنید."
-            },
-            {
-                "id":2,
-                "class" :"ekran1",
-                "src" : "./imags/icontrue.svg",
-                "title" : "با خرید یک بلیت، با همه خانواده فیلم می‌بینید.."
-            },
-            {
-                "id":3,
-                "class" :"ekran1",
-                "src" : "./imags/icontrue.svg",
-                "title" : "فیلم‌های روز سینمای ایران را از خانه تماشا می‌کنید."
-
-            }
-        
-      
-        ],
-        "twos" : [
-            {
-                "id":1,
-                "class" :"haftad",
-                "newclass1" : "khatat",
-                "src" : "./imags/7030.webp",
-                "newclass2" : "ce",
-                "newclass3" : "namefilim",
-                "title" : " هفتاد سی",
-                "newclass4" : "bahram",
-                "newtitle1" : " کارگردان: بهرام افشاری",
-                "newclass5" : "jhanr",
-                "p1" : "کمدی",
-                "p2" : "درام",
-                "newclass6" : "ticket",
-                "newtitle2" : " خرید بلیط ",
-                "newclass7" : "shop",
-                "newclass8" : "kharid",
-                "newtitle3" : " اکران آنلاین "
-            },
-            {
-                "id":2,
-                "class" :"haftad",
-                "newclass1" : "khatat",
-                "src" : "./imags/fish.webp",
-                "newclass2" : "ce",
-                "newclass3" : "namefilim",
-                "title" : " فصل ماهی سفید",
-                "newclass4" : "bahram",
-                "newtitle1" : " کارگردان: قربان نجفی",
-                "newclass5" : "jhanr",
-                "p1" : "درام",
-                "p2" : "خانوادگی",
-                "newclass6" : "ticket",
-                "newtitle2" : " خرید بلیط ",
-                "newclass7" : "shop",
-                "newclass8" : "kharid",
-                "newtitle3" : " اکران آنلاین "
-            }
-            
-        ],
-        "zood" : [
-            {
-                "id":1,
-                "newclass1" : "khatat1",
-                "src" : "./imags/zodpaz.webp",
-                "newclass2" : "ce1",
-                "newclass3" : "namefilim1",
-                "title" : "  زودپز",
-                "newclass4" : "bahram1",
-                "newtitle1" : " کارگردان: رامبد  جوان",
-                "newclass5" : "jhanr1",
-                "p1" : "کمدی",
-                "p2" : "خانوادگی",
-                "newclass6" : "ticket1",
-                "newtitle2" : " خرید بلیط ",
-                "newclass7" : "shop1",
-                "newclass8" : "kharid1",
-                "newtitle3" : " اکران آنلاین "
-            }
-        ],
-        "member" : [
-            {
-                "id" : "1",
-                "title" : "نظر کاربران بعد از تماشای فیلیمو"
-            }
-        ],
-        "all" : [
-            {
-                "id" : "1",
-                "class" : "swiper-slide",
-                "class1" : "moshakhasat",
-                "class3" : "pro",
-                "src" : "./imags/pro.webp",
-                "class4" : "firstname",
-                "title" : " aref",
-                "class5" : "cama",
-                "src1" : "./imags/cama.webp",
-                "class6" : "nazar",
-                "title1" : " عالیه خیلی فیلم و سریال های قشنگی داره "
-
-            },
-            {
-                "id" : "2",
-                "class" : "swiper-slide",
-                "class1" : "moshakhasat",
-                "class3" : "pro",
-                "src" : "./imags/pro.webp",
-                "class4" : "firstname",
-                "title" : " RAMTIN",
-                "class5" : "cama",
-                "src1" : "./imags/cama.webp",
-                "class6" : "nazar",
-                "title1" : "  خیلی برنامه خوبی هست و خیلی سریال متنوع داره "
-
-            },
-            {
-                "id" : "3",
-                "class" : "swiper-slide",
-                "class1" : "moshakhasat",
-                "class3" : "pro",
-                "src" : "./imags/pro.webp",
-                "class4" : "firstname",
-                "title" : " mostafa",
-                "class5" : "cama",
-                "src1" : "./imags/cama.webp",
-                "class6" : "nazar",
-                "title1" : "  از وقتی فیلیمو رو نصب کردم دیگه تلوزیون نگاه نمیکنم  "
-
-            },
-            {
-                "id" : "3",
-                "class" : "swiper-slide",
-                "class1" : "moshakhasat",
-                "class3" : "pro",
-                "src" : "./imags/pro.webp",
-                "class4" : "firstname",
-                "title" : " آوا",
-                "class5" : "cama",
-                "src1" : "./imags/cama.webp",
-                "class6" : "nazar",
-                "title1" : " فیلیمو عالی من از فیلیمو رازی هستم❤❤😍🤩😘❤🍓 "
-
-            },
-            {
-                "id" : "4",
-                "class" : "swiper-slide",
-                "class1" : "moshakhasat",
-                "class3" : "pro",
-                "src" : "./imags/pro.webp",
-                "class4" : "firstname",
-                "title" : " F.A",
-                "class5" : "cama",
-                "src1" : "./imags/cama.webp",
-                "class6" : "nazar",
-                "title1" : " خیلی خوبه تازه فیلم های 2021 رو هم با دوبله داره "
-
-            },
-            {
-                "id" : "5",
-                "class" : "swiper-slide",
-                "class1" : "moshakhasat",
-                "class3" : "pro",
-                "src" : "./imags/pro.webp",
-                "class4" : "firstname",
-                "title" : " Manidriver",
-                "class5" : "cama",
-                "src1" : "./imags/cama.webp",
-                "class6" : "nazar",
-                "title1" : " فیلیمو راضیوم ازت😍😍"
-
-            },
-            {
-                "id" : "6",
-                "class" : "swiper-slide",
-                "class1" : "moshakhasat",
-                "class3" : "pro",
-                "src" : "./imags/pro.webp",
-                "class4" : "firstname",
-                "title" : " ستایش",
-                "class5" : "cama",
-                "src1" : "./imags/cama.webp",
-                "class6" : "nazar",
-                "title1" : " عالیییبیبیییییییی پیشنهاد میکنم نصب کنید 🤗🤗"
-
-            },
-            {
-                "id" : "7",
-                "class" : "swiper-slide",
-                "class1" : "moshakhasat",
-                "class3" : "pro",
-                "src" : "./imags/pro.webp",
-                "class4" : "firstname",
-                "title" : " نیکا کاوند ",
-                "class5" : "cama",
-                "src1" : "./imags/cama.webp",
-                "class6" : "nazar",
-                "title1" : " واقعا عالیه.😚 خیلی برنامه عالیه😻😻 "
-
-            }
-        ],
-        
-        
-            "accordionItems": [
-              {
-                "question": "آیا می‌توانم فیلم‌های موجود در فیلیمو را دانلود کنم؟",
-                "answer": " بله، شما می‌توانید همه فیلم‌ و سریال‌های فیلیمو را داخل خود اپلیکیشن فیلیمو دانلود کنید و برای زمان‌هایی که اینترنت ندارید یا در سفر، هواپیما و قطار آ‌ن‌ها را تماشا کنید. برای دانلود هم از طریق رایانه و هم از طریق خود اپلیکیشن فیلیمو می‌توانید اقدام‌کنید. برای جزییات بیشتر می‌توانید فیلم‌های آموزشی مربوط به  دانلود از طریق سایت ... "
-              },
-              {
-                "question": "آیا فیلیمو برای خارج از ایران در دسترس است؟",
-                "answer": "خیر. درحال حاضر تماشای فیلیمو فقط در داخل کشور فعال است و امکان تماشا برای افراد خارج از کشور فعال نیست."
-              },
-              {
-                "question": "آیا برای تماشای فیلم‌های اکران آنلاین، باید اشتراک بخرم؟",
-                "answer": "تماشای فیلم‌های اکران آنلاین مانند تماشا در سینمای واقعی است؛ یعنی برای دیدن هر فیلم که در اکران آنلاین است باید بلیت تهیه کنید و به جای رفتن به سالن سینما، 8 ساعت فرصت دارید که آن فیلم را از داخل خانه تماشا کنید."
-              },
-              {
-                "question": "از کجا می‌توانم نرم‌افزار اندروید یا iOS فیلیمو را دانلود کنم؟",
-                "answer": "برای نصب نرم‌افزار اندرویدی فیلیمو می‌توانید ازطریق کافه بازار یا مایکت اقدام به دانلود کنید. یا می‌توانید روی گزینه روبرو بزنید و به‌طور مستقیم فایل نرم‌افزار را دریافت کنید. "
-              }
-            ],
-            
-                "footerMenu": [
-                {
-                  "items": [
-                    { "title": "تماشا‌ با تلویزیون" },
-                    { "title": "اپلیکیشن‌ها" },
-                    { "title": "تماس و پشتیبانی" },
-                    { "title": "فروشگاه" },
-                    {
-                      "title": "سایر لینک‌ها",
-                      "submenu": [
+                    "title": "سایر لینک‌ها",
+                    "submenu": [
                         "قوانین",
                         "به ما بپیوندید",
                         "تبلیغات در فیلیمو",
                         "لوگو",
                         "دانلود فیلم و سریال"
-                      ]
-                    },
-                    {
-                      "title": "شبکه‌های اجتماعی",
-                      "submenu": [
-                        { "label": "آپارات", "icon": "aparat-svgrepo-com.svg" },
-                        { "label": "تلگرام", "icon": "telegram-svgrepo-com.svg" },
-                        { "label": "توئیتر", "icon": "twitter-154-svgrepo-com.svg" },
-                        { "label": "اینستاگرام", "icon": "instagram-svgrepo-com.svg" }
-                      ]
-                    }
-                  ]
+                    ]
+                },
+                {
+                    "title": "شبکه‌های اجتماعی",
+                    "submenu": [
+                        {
+                            "label": "آپارات",
+                            "icon": "aparat-svgrepo-com.svg"
+                        },
+                        {
+                            "label": "تلگرام",
+                            "icon": "telegram-svgrepo-com.svg"
+                        },
+                        {
+                            "label": "توئیتر",
+                            "icon": "twitter-154-svgrepo-com.svg"
+                        },
+                        {
+                            "label": "اینستاگرام",
+                            "icon": "instagram-svgrepo-com.svg"
+                        }
+                    ]
                 }
-              ]
-
-
-          }
+            ]
+        }
+    ]
+}
